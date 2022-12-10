@@ -20,17 +20,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Product p=new Product();
-        int x,y,z;
-        x=sc.nextInt();
-        y=sc.nextInt();
-        z=sc.nextInt();
-        double a,b;
-        a=sc.nextDouble();
-        b=sc.nextDouble();
 
-        p.Product(x,y);
-        p.Product(x,y,z);
-        p.Product(a,b);
+
+        p.Product(1,2);
+        p.Product(1,2,3);
+        p.Product(1.2,1.4);
 
 
 
